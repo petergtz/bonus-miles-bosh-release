@@ -1,0 +1,5 @@
+check process bonus-miles
+  with pidfile /var/vcap/sys/run/bpm/bonus-miles/bonus-miles.pid
+  start program "/var/vcap/jobs/bpm/bin/bpm start bonus-miles"
+  stop program "/var/vcap/jobs/bpm/bin/bpm stop bonus-miles"
+  group vcap

@@ -1,0 +1,29 @@
+---
+name: bonus-miles
+
+templates:
+#  pre-start.erb: bin/pre-start
+  bpm.yml.erb: config/bpm.yml
+
+packages:
+- bonus-miles
+
+properties:
+  bonus_miles.concourse_local_username:
+    description: TODO
+  bonus_miles.concourse_local_password:
+    description: TODO
+  bonus_miles.concourse_url:
+    description: TODO
+  bonus_miles.concourse_teamname:
+    description: TODO
+  bonus_miles.resource_name:
+    description: TODO
+  bonus_miles.pipeline:
+    description: TODO
+  bonus_miles.jobs:
+    description: TODO
+  bonus_miles.port:
+    description: TODO
+    default: 12345
+

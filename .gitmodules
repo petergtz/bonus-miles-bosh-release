@@ -1,0 +1,3 @@
+[submodule "src/bonus-miles"]
+	path = src/bonus-miles
+	url = https://github.com/petergtz/bonus-miles.git

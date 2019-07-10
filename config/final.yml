@@ -1,0 +1,8 @@
+---
+final_name: bonus-miles-bosh
+blobstore:
+  provider: s3
+  options:
+    bucket_name: bits-service-release
+    region: eu-west-1
+    endpoint: https://s3-eu-west-1.amazonaws.com

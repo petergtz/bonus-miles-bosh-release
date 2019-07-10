@@ -1,0 +1,8 @@
+---
+name: bonus-miles
+
+dependencies:
+ - golang-1.12-linux
+
+files:
+  - '**/*'

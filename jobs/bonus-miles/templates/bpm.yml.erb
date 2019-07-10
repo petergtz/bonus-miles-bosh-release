@@ -1,0 +1,20 @@
+processes:
+- name: bonus-miles
+  executable: /var/vcap/packages/bonus-miles/bonus-miles
+  args:
+  - -u
+  - <%= p("bonus_miles.concourse_local_username") %>
+  - -p
+  - <%= p("bonus_miles.concourse_local_password") %>
+  - --url
+  - <%= p("bonus_miles.concourse_url") %>
+  - --teamname
+  - <%= p("bonus_miles.concourse_teamname") %>
+  - -r
+  - <%= p("bonus_miles.resource_name") %>
+  - -n
+  - <%= p("bonus_miles.pipeline") %>
+  - <
+  - <%= p("bonus_miles.jobs") %>
+  env:
+    PORT: <%= p("bonus_miles.port") %>
