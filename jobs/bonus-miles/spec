@@ -17,12 +17,6 @@ properties:
     description: TODO
   bonus_miles.concourse_teamname:
     description: TODO
-  bonus_miles.resource_name:
-    description: TODO
-  bonus_miles.pipeline:
-    description: TODO
-  bonus_miles.jobs:
-    description: TODO
   bonus_miles.port:
     description: TODO
     default: 12345

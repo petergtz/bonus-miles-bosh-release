@@ -3,5 +3,5 @@ set -ex
 source /var/vcap/packages/golang-1.12-linux/bosh/compile.env
 
 pushd bonus-miles
-    go build -o ${BOSH_INSTALL_TARGET}/bonus-miles
+    go build -mod=vendor -o ${BOSH_INSTALL_TARGET}/bonus-miles
 popd

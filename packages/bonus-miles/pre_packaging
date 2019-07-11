@@ -1,0 +1,4 @@
+set -ex
+
+cd ${BUILD_DIR}/bonus-miles
+go mod vendor
